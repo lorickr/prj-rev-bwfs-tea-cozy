@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* Universal */
+body {
+	margin: 0;
+	background-color: black;
+	color: seashell;
+	font-family: "Helvetica";
+	font-size: 22px;
+	opacity: 0.9;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+  	position: fixed;
+  	z-index: 1;
+	height: 69px;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	padding-left: 10px;
+}
+
+nav span {
+	padding-right: 10px;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+/* Mission Content */
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-top: 60px;
+}
+
+.mission {
+	background-image: url(images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+}
+
+.mcontent {
+	justify-content: center;
+	text-align: center;
+	background-color: black;
+	padding: 5px 5px;
+	margin-top: 200px;
+}
+
+/* Tea */
+.tea {
+	text-align: center;
+	width: 1000px;
+	margin-top: 20px;
+}
+
+.teacontent1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.teacontent2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 170px;
+	padding-right: 170px;
+}
+
+.berry h4 {
+	margin-top: 10px;
+}
+
+.spiced h4 {
+	margin-top: 10px;
+}
+
+.donut h4 {
+	margin-top: 10px;
+}
+
+.myrtle h4 {
+	margin-top: 10px;
+}
+
+.bedford h4 {
+	margin-top: 10px;
+}
+
+/* Location */
+.location_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin-top: 20px;
+	padding-top: 50px;
+	opacity: 1;
+}
+.locations {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.location_header {
+	padding: 0px 10px;
+}
+
+.downtown {
+	background-color: black;
+	margin-right: 40px;
+	width: 300px;
+	padding: 20px 10px 20px 10px;
+}
+
+.locations span {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+
+.east {
+	background-color: black;
+	width: 300px;
+	margin-right: 40px;
+	padding: 20px 10px 20px 10px;
+}
+
+.oakdale {
+	background-color: black;
+	width: 300px;
+	padding: 20px 10px 20px 10px;
+}
+
+/* Footer */
+.footer_info span {
+	display: block;
+}
+
+.copyright {
+	display: flex;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
